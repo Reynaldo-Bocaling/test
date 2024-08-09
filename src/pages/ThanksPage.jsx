@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import ThanksTopImg from "../assets/thankstop.png";
 import { TiTickOutline } from "react-icons/ti";
 import url from "../assets/config";
 
@@ -11,13 +10,6 @@ const ThanksPage = () => {
       style={{ width: "100%", height: "100vh" }}
     >
       <div className="position-relative">
-        {/* <img
-          src={ThanksTopImg}
-          alt="top"
-          className="position-absolute"
-          style={{ width: "10rem", top: "-80px", right: "-80px", zIndex: 0 }} // Set a lower zIndex for the images
-        /> */}
-
         <div
           className="d-flex flex-column justify-content-center align-items-center p-4 rounded position-relative"
           style={{
